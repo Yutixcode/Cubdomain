@@ -12,4 +12,5 @@ cd Cubdomain
 python cundomain.py
 ```
 ### Notes
-use your own risk !
+- Contact me if the tool is no longer working
+- use your own risk !
