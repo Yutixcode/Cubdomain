@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-ver = "v1.0"
+ver = "v1.2"
 print(f"\033[1;91m\n   .   ,    .             .       .   \n    \ /     |   o         |     o |   \n     Y  . . |-  . . , ;-. | ,-. . |-  \n     |  | | |   |  X  | | | | | | |     \033[0;37m{ver}\033[1;91m\n     '  `-` `-' ' ' ` |-' ' `-' ' `-'  \n                      '               \033[0m")
 import requests as req
 req.urllib3.disable_warnings()
@@ -28,7 +28,7 @@ mpreff = "m"
 
 def main():
 	try:
-		print(f" {reset}Cubdomain Scraper\n https://t.me/yutixverse\n https://github.com/Yutixcode")
+		print(f" {reset}\033[4mCubdomain Scraper{reset}\n https://t.me/yutixverse\n https://github.com/Yutixcode")
 		Cubdo().liat()
 		for i in range(1,19):
 			x = f"    {reset}{i}. {cyan}{mdate[str(i)]}"
@@ -56,7 +56,7 @@ class Cubdo:
 		self.tots = 0
 	
 	def gas(self,path=""):
-		respon = req.get(f"https://66.45.249.94/{path}",headers={'Host':'www.cubdomain.com'},verify=False,timeout=30).text
+		respon = req.get(f"https://66.45.226.242/{path}",headers={'Host':'www.cubdomain.com'},verify=False,timeout=30).text
 		return respon
 	
 	def gasken(self):
