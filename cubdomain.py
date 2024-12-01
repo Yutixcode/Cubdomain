@@ -86,4 +86,4 @@ class Cubdo:
 			tgl = sup[i]["title"].strip()
 			mdate.update({str(i+1):tgl})
 
-main()
+main() 
